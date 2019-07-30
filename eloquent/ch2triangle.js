@@ -1,10 +1,8 @@
 let count = 1;
-let triangle = '#';
+let triangle = "#";
 do {
-    console.log(triangle.repeat(count))
-    count++;
+  console.log(triangle.repeat(count));
+  count++;
 } while (count < 8);
 
-
-for (let line = '#'; line.length < 8; line += '#')
-console.log(line);
+for (let line = "#"; line.length < 8; line += "#") console.log(line);
