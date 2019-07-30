@@ -1,12 +1,12 @@
-for (let index = 1; index <= 100; index++){
-    if (index % 5 == 0 && (index % 3 == 0)) {
+for (let count = 1; count <= 100; count++){
+    if (count % 5 == 0 && (count % 3 == 0)) {
         console.log('FizzBuzz');        
-    } else if (index % 3 == 0) {
+    } else if (count % 3 == 0) {
         console.log('Fizz');        
-    } else if (index % 5 == 0) { 
+    } else if (count % 5 == 0) { 
         console.log('Buzz');
     } else {
-        console.log(index);
+        console.log(count);
     }
     
 
