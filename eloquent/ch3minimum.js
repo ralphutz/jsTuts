@@ -1,6 +1,6 @@
 const min = function(x, y) {
     if (x > y) return y;
-    if (y > x) return x;
+    else return x;
 };
 
-console.log(min(12, 6));
+console.log(min(12, 33));
