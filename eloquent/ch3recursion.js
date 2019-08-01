@@ -7,3 +7,11 @@ const isEven = function(n) {
 };
 
 console.log(isEven(-1));
+
+let day1 = {
+    squirrel: false,
+    events: ["work", "touched tree", "pizza", "running"]
+};
+day1.wolf = false;
+day1.events.pop();
+console.log(day1);
