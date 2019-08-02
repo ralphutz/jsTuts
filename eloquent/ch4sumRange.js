@@ -1,4 +1,4 @@
-const range = function(start, end) {
+const ranges = function(start, end) {
     numbers = [];
     while (start <= end) {
         numbers.push(start);
@@ -7,4 +7,12 @@ const range = function(start, end) {
     return numbers;
 };
 
-console.log(range(2, 4));
+const sums = function(numbers) {
+    result = 0;
+    for (let number of numbers) {
+        result += number;
+    }
+    return result;
+};
+
+console.log(sums(ranges(1, 10)));
