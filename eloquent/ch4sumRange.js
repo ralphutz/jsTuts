@@ -1,5 +1,5 @@
 const ranges = function(start, end) {
-    numbers = [];
+    let numbers = [];
     while (start <= end) {
         numbers.push(start);
         start += 1;
@@ -8,7 +8,7 @@ const ranges = function(start, end) {
 };
 
 const sums = function(numbers) {
-    result = 0;
+    let result = 0;
     for (let number of numbers) {
         result += number;
     }
