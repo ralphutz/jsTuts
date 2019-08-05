@@ -6,4 +6,4 @@ const reverseArray = function(array) {
     return result;
 };
 let numbers = [0, 1, 2, 3];
-console.log(reverseArray(numbers))
+console.log(reverseArray(numbers));
