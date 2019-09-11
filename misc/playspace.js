@@ -1,7 +1,7 @@
 function countDownFrom(n) {
-    console.log(n);
-    if (n == 1) return;
-    countDownFrom(--n);
+  console.log(n);
+  if (n == 1) return;
+  countDownFrom(--n);
 }
 
 countDownFrom(5);
@@ -18,10 +18,19 @@ const [first, second, third, ...rest] = t;
 console.log(rest[0]);
 
 const sum = (p1, p2) => {
-    console.log(p1);
-    console.log(p2);
-    return p1 + p2;
+  console.log(p1);
+  console.log(p2);
+  return p1 + p2;
 };
 
 const result = sum(1, 5);
 console.log(result);
+
+props = {
+  name: "Arto",
+  age: 36
+};
+
+const { name, age } = props;
+
+console.log(name);
